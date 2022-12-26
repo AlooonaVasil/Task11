@@ -23,9 +23,7 @@ namespace Task11
 
             if (k == 0 && b == 0)
                  return "Решение - любое число"; 
-            else if (k == 0)
-                return "Решений нет";
-            return $"Решение - {-b / k}";
+            return k == 0 ? "Решений нет" : $"Решение - {-b / k}";
         }
     }
 }

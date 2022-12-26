@@ -11,10 +11,10 @@ namespace Task11
     {
         static void Main(string[] args)
         {
-            double k = Convert.ToDouble(Console.ReadLine());
-            double b = Convert.ToDouble(Console.ReadLine());
+            var k = Convert.ToDouble(Console.ReadLine());
+            var b = Convert.ToDouble(Console.ReadLine());
 
-            Equation equation = new Equation(k, b);
+            var equation = new Equation(k, b);
             Console.WriteLine(equation.Root());
             Console.ReadKey();
         }
